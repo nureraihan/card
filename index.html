@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        .mutiple-card-container{
+            box-sizing: border-box;
+            display: flex;
+            background-color: bisque;
+            padding: 20px 0;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+            
+        .card{
+            width: 300px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            box-shadow: 4px 6px 10px orange;
+            border-left: 2px solid wheat;
+            border-top:2px solid wheat; 
+            
+        }
+        .img-style{
+            width: 100%;
+
+
+        }
+        .card-body{
+            padding: 5px;
+            background-color: cornsilk;
+        
+        }
+        .card .card-body .card-tittle{
+            font-size: 20px;
+            text-align: left;
+            
+             
+        }
+        .card .card-body .description{
+            font-size: 12px;
+            text-align: left;
+          
+            
+             
+        }
+        .card:hover{
+            
+            box-shadow: 4px 6px 10px aqua;
+        }
+         
+         
+    </style>
+</head>
+<body>
+    <div class="mutiple-card-container">
+        <div class="card">
+            <img class="img-style" src="./image/nur.png" >
+            <div class="card-body">
+                <div class="card-tittle">
+                   Nur Mohammad.
+                </div>
+                <div class="description ">
+                    Faridpur Engineering College. <br>
+                    Chorkomolapur, Faridpur.<br>
+                    Mobile:01754173946
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="img-style" src="image/nur.png" >
+            <div class="card-body">
+                <div class="card-tittle">
+                   Nur Mohammad.
+                </div>
+                <div class="description ">
+                    Faridpur Engineering College. <br>
+                    Chorkomolapur, Faridpur.<br>
+                    Mobile:01754173946
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="img-style" src="image/nur.png" >
+            <div class="card-body">
+                <div class="card-tittle">
+                   Nur Mohammad.
+                </div>
+                <div class="description ">
+                    Faridpur Engineering College. <br>
+                    Chorkomolapur, Faridpur.<br>
+                    Mobile:01754173946
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
